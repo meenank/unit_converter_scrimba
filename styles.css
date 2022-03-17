@@ -1,0 +1,87 @@
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+         ::placeholder {
+            color: white;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            /* background-color: black; */
+            background: linear-gradient(246.26deg, #ED4683 0%, #F48E14 100%);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        
+        .main {
+            /* border: 1px solid red; */
+            width: 35%;
+            border-radius: 1rem;
+            /* border: 5px solid red; */
+        }
+        
+        .main .input {
+            color: white;
+            font-weight: 800;
+            padding: 2rem 0;
+            text-align: center;
+            background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        
+        .main .input input {
+            font-size: 4em;
+            width: 30%;
+            text-align: center;
+            margin-top: 1rem;
+            outline: 0;
+            border: none;
+            color: white;
+            background-color: transparent;
+            caret-color: transparent;
+            overflow: hidden;
+            font-weight: bold;
+        }
+        
+        .main .input input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+        
+        .main .results {
+            text-align: center;
+            padding: 1rem;
+            color: #ffffff;
+            background-color: #1F2937;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        
+        .main .results .result1,
+        .result2,
+        .result3 {
+            padding: 1rem;
+        }
+        
+        .main .results .result1 p,
+        .result2 p,
+        .result3 p {
+            padding: 5px;
+        }
+        
+        .main .results .bold {
+            font-weight: 600;
+            /* font-weight: bolder; */
+        }
+        
+        .main .results .lighter {
+            font-weight: 400;
+            color: lightslategray;
+        }
